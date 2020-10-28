@@ -59,4 +59,10 @@ public interface Agency {
 	 * @return 返回函数执行状态，true：正常，false：异常
 	 */
 	public Boolean discard(int cards[], int length);
+	
+	/**
+	 * 	获取手牌展示图样
+	 * @return String对象
+	 */
+	public String getCardsShow();
 }
