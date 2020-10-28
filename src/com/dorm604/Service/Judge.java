@@ -46,4 +46,10 @@ public interface Judge {
 	 * @return 合法判断和函数执行状态, 1：合法，0：不合法，-1：错误
 	 */
 	public int judgement(int thisCards[]);
+	
+	/**
+	 * 	裁判主持的过程
+	 * @return 函数执行状态，true：正常，false：异常
+	 */
+	public Boolean judgeProcess();
 }
